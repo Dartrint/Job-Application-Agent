@@ -1,0 +1,43 @@
+Senior AI/ML Engineer - San Francisco
+
+Company: TechCorp AI
+Location: San Francisco, CA (Hybrid)
+Employment Type: Full-time
+Salary: $180K - $250K + equity
+
+About the Role:
+We're looking for a Senior AI/ML Engineer to join our core platform team. You'll be responsible for building and scaling our LLM-based recommendation engine that powers our product for millions of users.
+
+Key Responsibilities:
+- Design and implement machine learning pipelines using LangChain and LangGraph
+- Develop and optimize RAG (Retrieval-Augmented Generation) systems for production
+- Build and maintain production-grade LLM applications handling 1M+ requests/day
+- Collaborate with data engineers to create efficient ETL pipelines
+- Mentor junior engineers on AI/ML best practices and production deployment
+- Contribute to architectural decisions and technical strategy
+
+Required Qualifications:
+- 5+ years of professional experience in ML/AI engineering
+- Strong Python expertise with production experience
+- Deep knowledge of LLMs, prompt engineering, and fine-tuning
+- Experience with LangChain, LangGraph, or similar agent frameworks
+- Understanding of vector databases and embedding systems
+- System design and distributed systems knowledge
+- Experience with containerization (Docker, Kubernetes)
+- Strong communication and collaboration skills
+
+Nice to Have:
+- Open-source contributions (especially ML projects)
+- Experience with fine-tuning large language models (Llama, Mistral)
+- Knowledge of advanced agent frameworks and orchestration
+- Cloud platform experience (AWS SageMaker, GCP Vertex AI, Azure ML)
+- Published research papers or technical writing
+- Experience with model optimization and quantization
+
+Benefits:
+- Competitive salary with significant equity
+- Remote/Hybrid flexibility
+- $5K annual learning budget
+- Comprehensive health insurance
+- 401(k) matching
+- Unlimited PTO

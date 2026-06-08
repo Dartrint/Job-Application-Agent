@@ -1,0 +1,300 @@
+{
+  "workflow_id": "4c17d400-f21e-4b3d-9e0d-43c4d6b3fdfd",
+  "status": {
+    "job_analysis": "OK",
+    "cv_analysis": "OK",
+    "interview_prep": "OK",
+    "cover_letter": "OK"
+  },
+  "job_profile": {
+    "title": "AI Engineer",
+    "company": "Example AI Solutions",
+    "seniority_level": "Mid",
+    "required_skills": [
+      "Python",
+      "ML frameworks (PyTorch/TensorFlow)",
+      "LLMs",
+      "Vector databases",
+      "Prompt engineering",
+      "Docker",
+      "Git",
+      "Cloud platforms"
+    ],
+    "nice_to_have_skills": [
+      "LangChain",
+      "LangGraph",
+      "MLOps",
+      "Kubernetes",
+      "Production AI systems"
+    ],
+    "responsibilities": [
+      "Build and optimize AI/ML models",
+      "Develop RAG and LLM-based applications",
+      "Create APIs and production services",
+      "Monitor model performance and reliability",
+      "Collaborate with product and engineering teams"
+    ],
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Docker",
+      "Git",
+      "Cloud platforms",
+      "LLMs",
+      "Vector databases"
+    ],
+    "compensation_range": "",
+    "location": "",
+    "employment_type": "Full-time",
+    "raw_text": "JOB DESCRIPTION - AI ENGINEER\nCompany: Example AI Solutions\nPosition Overview\nWe are seeking an AI Engineer to design, develop, and deploy AI-powered applications using\nmodern machine learning and large language model technologies.\nResponsibilities\n\u007f Build and optimize AI/ML models\n\u007f Develop RAG and LLM-based applications\n\u007f Create APIs and production services\n\u007f Monitor model performance and reliability\n\u007f Collaborate with product and engineering teams\nRequirements\n\u007f Bachelor's degree in Computer Science or related field\n\u007f Strong Python programming skills\n\u007f Experience with ML frameworks (PyTorch/TensorFlow)\n\u007f Familiarity with LLMs, vector databases, and prompt engineering\n\u007f Knowledge of Docker, Git, and cloud platforms\nPreferred Qualifications\nExperience with LangChain, LangGraph, MLOps, Kubernetes, and production AI systems."
+  },
+  "cv_analysis": {
+    "experience_years": 0.0,
+    "key_skills": [
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "LangGraph",
+      "FAISS",
+      "SQL",
+      "Docker",
+      "Git",
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face",
+      "OpenAI API",
+      "Machine Learning",
+      "Deep Learning",
+      "LLMs",
+      "RAG systems",
+      "MLOps"
+    ],
+    "education": [
+      "B.Sc. in Computer Science, GPA: 3.6/4.0, 2022-2026"
+    ],
+    "projects": [
+      "Healthcare AI Chatbot: Built a chatbot using RAG, vector database, and LLM orchestration",
+      "Document Q&A; Assistant: Developed a retrieval system for enterprise documents"
+    ],
+    "matching_skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Docker",
+      "Git",
+      "LLMs",
+      "Vector databases"
+    ],
+    "missing_skills": [
+      "Cloud platforms",
+      "Prompt engineering"
+    ],
+    "suggestions": [
+      "Gain experience in Cloud platforms such as AWS or Azure",
+      "Develop skills in Prompt engineering for LLMs",
+      "Highlight transferable skills from projects to job requirements",
+      "Consider adding relevant certifications or courses for Cloud platforms and Prompt engineering",
+      "Emphasize achievements and impact in projects instead of just listing technologies used"
+    ],
+    "improvement_score": 60.0
+  },
+  "interview_guide": {
+    "technical_questions": [
+      {
+        "question": "How do you optimize the performance of a PyTorch model?",
+        "suggested_answer": "The candidate should discuss techniques such as pruning, quantization, and knowledge distillation, and provide examples of how they have been used in the past",
+        "difficulty": "medium",
+        "why_asked": "To assess the candidate's knowledge of PyTorch optimization techniques",
+        "keywords": [
+          "PyTorch",
+          "optimization",
+          "pruning",
+          "quantization"
+        ]
+      },
+      {
+        "question": "What is the difference between TensorFlow and PyTorch?",
+        "suggested_answer": "The candidate should discuss the differences in syntax, computational graphs, and use cases for each framework",
+        "difficulty": "easy",
+        "why_asked": "To evaluate the candidate's understanding of popular ML frameworks",
+        "keywords": [
+          "TensorFlow",
+          "PyTorch",
+          "ML frameworks"
+        ]
+      },
+      {
+        "question": "How do you implement a simple LLM using PyTorch?",
+        "suggested_answer": "The candidate should discuss the architecture of a simple LLM, including the use of embedding layers, transformer layers, and output layers, and provide examples of how they have been implemented in the past",
+        "difficulty": "hard",
+        "why_asked": "To assess the candidate's knowledge of LLM architecture and implementation",
+        "keywords": [
+          "LLM",
+          "PyTorch",
+          "transformer"
+        ]
+      },
+      {
+        "question": "What is the purpose of a vector database in AI applications?",
+        "suggested_answer": "The candidate should discuss the use of vector databases for efficient similarity search and retrieval of high-dimensional vectors, and provide examples of how they have been used in the past",
+        "difficulty": "medium",
+        "why_asked": "To evaluate the candidate's understanding of vector databases and their use cases",
+        "keywords": [
+          "vector database",
+          "similarity search"
+        ]
+      },
+      {
+        "question": "How do you deploy a PyTorch model using Docker?",
+        "suggested_answer": "The candidate should discuss the steps involved in deploying a PyTorch model using Docker, including creating a Dockerfile, building a Docker image, and running a Docker container",
+        "difficulty": "medium",
+        "why_asked": "To assess the candidate's knowledge of model deployment using Docker",
+        "keywords": [
+          "PyTorch",
+          "Docker",
+          "model deployment"
+        ]
+      },
+      {
+        "question": "What is prompt engineering and how is it used in LLMs?",
+        "suggested_answer": "The candidate should discuss the concept of prompt engineering, including the design of effective prompts for LLMs, and provide examples of how prompt engineering has been used to improve LLM performance",
+        "difficulty": "hard",
+        "why_asked": "To evaluate the candidate's understanding of prompt engineering and its application in LLMs",
+        "keywords": [
+          "prompt engineering",
+          "LLM",
+          "natural language processing"
+        ]
+      },
+      {
+        "question": "How do you use LangChain and LangGraph for building AI applications?",
+        "suggested_answer": "The candidate should discuss the use of LangChain and LangGraph for building AI applications, including the integration of LLMs and other AI models",
+        "difficulty": "medium",
+        "why_asked": "To assess the candidate's knowledge of LangChain and LangGraph",
+        "keywords": [
+          "LangChain",
+          "LangGraph",
+          "AI applications"
+        ]
+      },
+      {
+        "question": "What is the role of FAISS in AI applications?",
+        "suggested_answer": "The candidate should discuss the use of FAISS for efficient similarity search and retrieval of high-dimensional vectors, and provide examples of how FAISS has been used in the past",
+        "difficulty": "easy",
+        "why_asked": "To evaluate the candidate's understanding of FAISS and its use cases",
+        "keywords": [
+          "FAISS",
+          "similarity search"
+        ]
+      }
+    ],
+    "behavioral_questions": [
+      {
+        "question": "Tell me about a time when you had to optimize the performance of a machine learning model",
+        "suggested_answer": "The candidate should provide a specific example of a time when they had to optimize a model, including the techniques they used and the results they achieved",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's experience with model optimization",
+        "keywords": []
+      },
+      {
+        "question": "Describe a situation where you had to work with a team to deploy a machine learning model",
+        "suggested_answer": "The candidate should provide a specific example of a time when they worked with a team to deploy a model, including their role in the team and the challenges they faced",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with team collaboration and model deployment",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a project you worked on that involved building a natural language processing application",
+        "suggested_answer": "The candidate should provide a specific example of a project they worked on, including the goals of the project, their role in the project, and the results they achieved",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's experience with NLP applications",
+        "keywords": []
+      },
+      {
+        "question": "Describe a situation where you had to troubleshoot an issue with a machine learning model",
+        "suggested_answer": "The candidate should provide a specific example of a time when they had to troubleshoot an issue with a model, including the steps they took to identify and resolve the issue",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with model debugging",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to communicate complex technical information to a non-technical audience",
+        "suggested_answer": "The candidate should provide a specific example of a time when they had to communicate complex technical information, including the strategies they used to simplify the information and the results they achieved",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's ability to communicate technical information effectively",
+        "keywords": []
+      },
+      {
+        "question": "Describe a situation where you had to work with a stakeholder to define the requirements for a machine learning project",
+        "suggested_answer": "The candidate should provide a specific example of a time when they worked with a stakeholder to define project requirements, including the steps they took to gather requirements and the results they achieved",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with stakeholder management and project planning",
+        "keywords": []
+      }
+    ],
+    "system_design_questions": [
+      {
+        "question": "Design a system for deploying and managing machine learning models in a cloud environment",
+        "approach": "Start by identifying the key components of the system, including the model deployment process, model monitoring, and model updating. Discuss the tradeoffs between different design options, including the use of containerization vs. serverless architecture",
+        "hints": [
+          "Consider the use of cloud platforms such as AWS or GCP",
+          "Discuss the importance of model versioning and reproducibility"
+        ]
+      },
+      {
+        "question": "Design a system for building and training large-scale language models",
+        "approach": "Start by identifying the key components of the system, including data preprocessing, model architecture, and training infrastructure. Discuss the tradeoffs between different design options, including the use of distributed training vs. single-machine training",
+        "hints": [
+          "Consider the use of specialized hardware such as GPUs or TPUs",
+          "Discuss the importance of data parallelism and model parallelism"
+        ]
+      },
+      {
+        "question": "Design a system for integrating machine learning models with a web application",
+        "approach": "Start by identifying the key components of the system, including the model deployment process, API design, and frontend integration. Discuss the tradeoffs between different design options, including the use of RESTful APIs vs. GraphQL APIs",
+        "hints": [
+          "Consider the use of containerization and orchestration tools such as Docker and Kubernetes",
+          "Discuss the importance of API security and authentication"
+        ]
+      }
+    ],
+    "tips_and_tricks": [
+      "Review the fundamentals of machine learning and deep learning",
+      "Practice building and deploying models using popular frameworks such as PyTorch and TensorFlow",
+      "Familiarize yourself with cloud platforms such as AWS or GCP",
+      "Learn about the latest advancements in natural language processing and language models",
+      "Practice communicating complex technical information to non-technical audiences",
+      "Review the basics of system design and architecture",
+      "Familiarize yourself with containerization and orchestration tools such as Docker and Kubernetes",
+      "Practice solving system design problems and whiteboarding exercises"
+    ],
+    "estimated_duration_minutes": 120,
+    "interview_format": "mixed",
+    "company_research": "Example AI Solutions is a leading provider of AI and machine learning solutions, with a focus on natural language processing and language models. The company has a strong reputation for innovation and has worked with a variety of clients across different industries.",
+    "success_factors": [
+      "Strong technical skills in machine learning and deep learning",
+      "Experience with popular frameworks such as PyTorch and TensorFlow",
+      "Ability to communicate complex technical information effectively",
+      "Strong system design and architecture skills"
+    ]
+  },
+  "cover_letter": {
+    "primary_version": "```json\n{\n  \"primary_version\": \"\nDear Hiring Manager,\n\nI am excited to apply for the AI Engineer position at Example AI Solutions. With a strong foundation in Python, PyTorch, TensorFlow, Docker, and Git, I am confident in my ability to build and optimize AI/ML models, develop RAG and LLM-based applications, and create APIs and production services.\n\nAs a highly motivated individual with a passion for artificial intelligence, I am eager to learn and grow with a dynamic team. Although I have limit",
+    "variations": [
+      {
+        "content": "[Formal Tone Variation]\n\n```json\n{\n  \"primary_version\": \"\nDear Hiring Manager,\n\nI am excited to apply for the AI Engineer position at Example AI Solutions. With a strong foundation in Python, PyTorch, TensorFlow, Docker, and Git, I am confident in my ability to build and optimize AI/ML models, develop RAG and LLM-based applications, and create APIs and production services.\n\nAs a highly motivated individual with a passion for artificial intelligence, I am eager to learn and grow with a dynamic team. Although I have limit\n\n[This is an alternative formal version of the cover letter.]",
+        "tone": "formal"
+      },
+      {
+        "content": "[Casual Tone Variation]\n\n```json\n{\n  \"primary_version\": \"\nDear Hiring Manager,\n\nI am excited to apply for the AI Engineer position at Example AI Solutions. With a strong foundation in Python, PyTorch, TensorFlow, Docker, and Git, I am confident in my ability to build and optimize AI/ML models, develop RAG and LLM-based applications, and create APIs and production services.\n\nAs a highly motivated individual with a passion for artificial intelligence, I am eager to learn and grow with a dynamic team. Although I have limit\n\n[This is an alternative more casual version of the cover letter.]",
+        "tone": "casual"
+      }
+    ],
+    "key_narratives": [
+      "Strong technical background",
+      "Good role fit"
+    ]
+  },
+  "errors": []
+}

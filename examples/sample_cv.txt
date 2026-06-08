@@ -1,0 +1,68 @@
+John Doe
+San Francisco, CA 94105 | (555) 123-4567 | john.doe@email.com
+GitHub: github.com/johndoe | LinkedIn: linkedin.com/in/johndoe | Portfolio: johndoe.dev
+
+PROFESSIONAL SUMMARY
+Experienced ML/AI Engineer with 6+ years building production machine learning systems and LLM applications. Proven track record of designing scalable pipelines, implementing RAG systems, and leading technical initiatives. Open-source contributor with deep expertise in modern AI frameworks.
+
+EXPERIENCE
+
+Senior ML Engineer | DataSystems Inc. (2022 - Present)
+San Francisco, CA
+- Led development of LLM-powered customer support chatbot using LangChain, reducing support costs by 40% ($2M annually)
+- Designed and implemented production RAG system serving 50M+ queries/month with 95% retrieval accuracy
+- Architected ML pipeline processing 1M+ documents daily using Spark, Kubernetes, achieving 99.9% uptime
+- Mentored team of 3 junior engineers on production ML practices, code review, and system design
+- Optimized LLM inference latency by 60% through quantization and caching strategies
+
+ML Engineer | CloudAI Corp. (2020 - 2022)
+San Jose, CA
+- Built recommendation engine using collaborative filtering and deep learning, serving 5M+ active users
+- Implemented prompt engineering strategies for GPT-3/GPT-4 integration, improving accuracy by 35%
+- Created vector database infrastructure using Pinecone and ChromaDB, handling 100M+ embeddings
+- Optimized model inference reducing p99 latency from 2s to 800ms through batch processing
+- Led migration from TensorFlow to PyTorch, improving team productivity by 30%
+
+Backend Engineer | StartupXYZ (2018 - 2020)
+Palo Alto, CA
+- Developed Python microservices for data processing platform serving 10K+ daily users
+- Built ETL pipelines using Apache Airflow processing 500GB+ daily data
+- Implemented Redis caching reducing database load by 70%
+- Contributed to system architecture supporting 100x user growth
+
+EDUCATION
+BS Computer Science | UC Berkeley (2018)
+GPA: 3.8/4.0
+Relevant Coursework: Machine Learning, Advanced Algorithms, Natural Language Processing, Distributed Systems, Deep Learning
+
+TECHNICAL SKILLS
+Languages: Python (Expert), SQL (Advanced), JavaScript (Intermediate), Bash (Intermediate)
+ML/AI Frameworks: LangChain, LangGraph, TensorFlow, PyTorch, scikit-learn, Hugging Face Transformers, LLaMA, Mistral
+Databases & Storage: PostgreSQL, MongoDB, Redis, Elasticsearch, Pinecone, ChromaDB, Weaviate
+Cloud & DevOps: AWS (EC2, S3, SageMaker, Lambda), Docker, Kubernetes, GitHub Actions, ArgoCD
+Tools & Platforms: Jupyter, Git, Airflow, Grafana, Prometheus, Weights & Biases
+
+PROJECTS & ACHIEVEMENTS
+
+Open Source Contributions:
+- LangChain: 150+ merged PRs, core contributor for RAG module
+- LangGraph: 30+ merged PRs, expertise in multi-agent orchestration
+- Actively maintaining "awesome-llm-agents" repository with 3K+ stars
+
+Publications & Speaking:
+- "Building Production RAG Systems" - Published on Medium (50K+ views)
+- "LLM Agent Design Patterns" - Talk at PyCon 2023 (watched by 5K+ developers)
+- 5+ technical articles on LLM applications and best practices
+
+Patents & Innovation:
+- Inventor on 2 patents related to efficient LLM inference (pending)
+- Led internal hackathon resulting in 2x performance improvement
+
+CERTIFICATIONS
+- AWS Certified Machine Learning - Specialty
+- Deep Learning Specialization (Andrew Ng, Coursera)
+- Advanced System Design Course (Alex Xu)
+
+LANGUAGES
+- English (Native)
+- Vietnamese (Professional Working Proficiency)

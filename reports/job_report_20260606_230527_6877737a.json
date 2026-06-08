@@ -1,0 +1,322 @@
+{
+  "workflow_id": "6877737a-97b4-4947-837e-9a9ad12b3420",
+  "status": {
+    "job_analysis": "OK",
+    "cv_analysis": "OK",
+    "interview_prep": "OK",
+    "cover_letter": "OK"
+  },
+  "job_profile": {
+    "title": "Senior AI/ML Engineer",
+    "company": "TechCorp AI",
+    "seniority_level": "Senior",
+    "required_skills": [
+      "Python",
+      "LLMs",
+      "Prompt engineering",
+      "LangChain",
+      "LangGraph",
+      "Vector databases",
+      "Embeddings",
+      "System design",
+      "Distributed systems",
+      "Docker",
+      "Kubernetes"
+    ],
+    "nice_to_have_skills": [
+      "Open-source ML projects",
+      "Fine-tuning large language models",
+      "Agent frameworks",
+      "Cloud platforms (AWS, GCP, Azure)",
+      "Published research or technical writing"
+    ],
+    "responsibilities": [
+      "Design and implement machine learning pipelines",
+      "Develop and optimize RAG systems",
+      "Build and maintain production LLM applications",
+      "Collaborate with data engineers",
+      "Mentor junior engineers"
+    ],
+    "tech_stack": [
+      "LangChain",
+      "LangGraph",
+      "Python",
+      "Docker",
+      "Kubernetes"
+    ],
+    "compensation_range": "$180K - $250K + equity",
+    "location": "San Francisco, CA",
+    "employment_type": "Full-time",
+    "raw_text": "Senior AI/ML Engineer - San Francisco\n\nCompany: TechCorp AI\nLocation: San Francisco, CA\nEmployment Type: Full-time\nSalary: $180K - $250K + equity\n\nAbout the role:\nWe're looking for a Senior AI/ML Engineer to join our core platform team. You'll be responsible for building and scaling our LLM-based recommendation engine that powers our product for millions of users.\n\nKey Responsibilities:\n- Design and implement machine learning pipelines using LangChain and LangGraph\n- Develop and optimize RAG (Retrieval-Augmented Generation) systems\n- Build and maintain production LLM applications\n- Collaborate with data engineers to create efficient data pipelines\n- Mentor junior engineers on AI/ML best practices\n- Contribute to open-source ML projects\n\nRequired Skills:\n- 5+ years of experience in ML/AI engineering\n- Strong Python expertise\n- Experience with LLMs and prompt engineering\n- Knowledge of LangChain, LangGraph, or similar frameworks\n- Understanding of vector databases and embeddings\n- System design and distributed systems knowledge\n- Experience with deployment (Docker, Kubernetes)\n\nNice to Have:\n- Contributions to open-source ML projects\n- Experience with fine-tuning large language models\n- Knowledge of agent frameworks\n- Experience with cloud platforms (AWS, GCP, Azure)\n- Published research or technical writing\n\nWe offer:\n- Competitive compensation with equity\n- Remote/Hybrid work flexibility\n- Professional development budget\n- Health insurance and benefits"
+  },
+  "cv_analysis": {
+    "experience_years": 6.0,
+    "key_skills": [
+      "Python",
+      "LLMs",
+      "Prompt engineering",
+      "LangChain",
+      "LangGraph",
+      "Vector databases",
+      "Embeddings",
+      "System design",
+      "Distributed systems",
+      "Docker",
+      "Kubernetes",
+      "TensorFlow",
+      "PyTorch",
+      "scikit-learn",
+      "Hugging Face"
+    ],
+    "education": [
+      "BS Computer Science, UC Berkeley (2018)"
+    ],
+    "projects": [
+      "Led development of LLM-powered chatbot using LangChain, reducing customer support costs by 40%",
+      "Designed and implemented RAG system for knowledge base retrieval, achieving 95% accuracy",
+      "Architected ML pipeline processing 1M+ documents daily using Spark and Kubernetes",
+      "Built recommendation engine using collaborative filtering, serving 5M+ users",
+      "Open Source Contributor: LangChain community (100+ merged PRs)"
+    ],
+    "matching_skills": [
+      "Python",
+      "LLMs",
+      "Prompt engineering",
+      "LangChain",
+      "LangGraph",
+      "Vector databases",
+      "System design",
+      "Distributed systems",
+      "Docker"
+    ],
+    "missing_skills": [
+      "Embeddings"
+    ],
+    "suggestions": [
+      "Emphasize experience with embeddings in the CV",
+      "Highlight specific accomplishments with Docker and Kubernetes",
+      "Include more details about system design and distributed systems experience",
+      "Quantify the impact of technical initiatives led",
+      "Consider adding relevant certifications or courses"
+    ],
+    "improvement_score": 90.0
+  },
+  "interview_guide": {
+    "technical_questions": [
+      {
+        "question": "How do you optimize the performance of a large language model (LLM) in a production environment?",
+        "suggested_answer": "Discuss the importance of model pruning, knowledge distillation, and quantization. Explain how to use techniques like mixed precision training and gradient checkpointing to reduce memory usage and improve inference speed.",
+        "difficulty": "hard",
+        "why_asked": "To assess the candidate's ability to optimize LLMs for production use",
+        "keywords": [
+          "LLM optimization",
+          "model pruning",
+          "knowledge distillation"
+        ]
+      },
+      {
+        "question": "What is the difference between LangChain and LangGraph, and how do you decide which one to use for a given project?",
+        "suggested_answer": "Explain that LangChain is a framework for building conversational AI models, while LangGraph is a library for building graph-based language models. Discuss the tradeoffs between the two and how to choose the right one based on project requirements.",
+        "difficulty": "medium",
+        "why_asked": "To evaluate the candidate's understanding of LangChain and LangGraph",
+        "keywords": [
+          "LangChain",
+          "LangGraph",
+          "conversational AI"
+        ]
+      },
+      {
+        "question": "How do you handle out-of-vocabulary (OOV) words in a language model, and what techniques can you use to improve OOV handling?",
+        "suggested_answer": "Discuss techniques such as subwording, character-level modeling, and using pre-trained embeddings. Explain how to use these techniques to improve OOV handling in LLMs.",
+        "difficulty": "medium",
+        "why_asked": "To assess the candidate's ability to handle OOV words in LLMs",
+        "keywords": [
+          "OOV handling",
+          "subwording",
+          "character-level modeling"
+        ]
+      },
+      {
+        "question": "What is prompt engineering, and how do you optimize prompts for a given LLM task?",
+        "suggested_answer": "Explain that prompt engineering is the process of designing and optimizing prompts for LLMs. Discuss techniques such as prompt tuning, prompt ensembling, and using pre-trained prompt templates.",
+        "difficulty": "easy",
+        "why_asked": "To evaluate the candidate's understanding of prompt engineering",
+        "keywords": [
+          "prompt engineering",
+          "prompt tuning",
+          "prompt ensembling"
+        ]
+      },
+      {
+        "question": "How do you deploy and manage LLMs in a production environment using Docker and Kubernetes?",
+        "suggested_answer": "Discuss the importance of containerization using Docker and orchestration using Kubernetes. Explain how to use Docker to package LLMs and Kubernetes to manage and scale LLM deployments.",
+        "difficulty": "hard",
+        "why_asked": "To assess the candidate's ability to deploy and manage LLMs in production",
+        "keywords": [
+          "Docker",
+          "Kubernetes",
+          "LLM deployment"
+        ]
+      },
+      {
+        "question": "What is the role of embeddings in LLMs, and how do you use them to improve model performance?",
+        "suggested_answer": "Explain that embeddings are used to represent words, phrases, or documents as dense vectors. Discuss how to use pre-trained embeddings such as Word2Vec or GloVe to improve model performance.",
+        "difficulty": "medium",
+        "why_asked": "To evaluate the candidate's understanding of embeddings in LLMs",
+        "keywords": [
+          "embeddings",
+          "Word2Vec",
+          "GloVe"
+        ]
+      },
+      {
+        "question": "How do you evaluate the performance of an LLM, and what metrics do you use to measure its effectiveness?",
+        "suggested_answer": "Discuss metrics such as perplexity, accuracy, and F1 score. Explain how to use these metrics to evaluate LLM performance and identify areas for improvement.",
+        "difficulty": "easy",
+        "why_asked": "To assess the candidate's ability to evaluate LLM performance",
+        "keywords": [
+          "LLM evaluation",
+          "perplexity",
+          "accuracy"
+        ]
+      },
+      {
+        "question": "What is the difference between a retrieval-augmented generator (RAG) and a traditional LLM, and how do you decide which one to use for a given project?",
+        "suggested_answer": "Explain that RAGs are designed to retrieve and generate text, while traditional LLMs are designed to generate text only. Discuss the tradeoffs between the two and how to choose the right one based on project requirements.",
+        "difficulty": "medium",
+        "why_asked": "To evaluate the candidate's understanding of RAGs and LLMs",
+        "keywords": [
+          "RAG",
+          "LLM",
+          "retrieval-augmented generation"
+        ]
+      }
+    ],
+    "behavioral_questions": [
+      {
+        "question": "Tell me about a time when you had to optimize the performance of an LLM in a production environment. What steps did you take, and what were the results?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the steps taken to optimize the LLM, such as model pruning, knowledge distillation, and quantization, and discuss the results, including any improvements in performance or efficiency.",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's ability to optimize LLMs in production",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project you worked on that involved building and deploying an LLM using Docker and Kubernetes. What were some of the challenges you faced, and how did you overcome them?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the challenges faced, such as managing dependencies, optimizing performance, and ensuring scalability, and discuss how they were overcome, including any solutions or workarounds used.",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with deploying LLMs using Docker and Kubernetes",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to design and implement a prompt engineering strategy for an LLM task. What approach did you take, and what were the results?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the approach taken, including any techniques used, such as prompt tuning or prompt ensembling, and discuss the results, including any improvements in performance or efficiency.",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's ability to design and implement prompt engineering strategies",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project you worked on that involved building and evaluating an RAG system. What were some of the challenges you faced, and how did you overcome them?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the challenges faced, such as managing dependencies, optimizing performance, and ensuring scalability, and discuss how they were overcome, including any solutions or workarounds used.",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with building and evaluating RAG systems",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to collaborate with a team to design and implement an LLM pipeline. What was your role, and how did you contribute to the project?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the role played, including any responsibilities or tasks, and discuss how contributions were made to the project, including any solutions or workarounds used.",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's ability to collaborate with a team",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project you worked on that involved using embeddings to improve the performance of an LLM. What approach did you take, and what were the results?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the approach taken, including any techniques used, such as using pre-trained embeddings or training custom embeddings, and discuss the results, including any improvements in performance or efficiency.",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with using embeddings in LLMs",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to troubleshoot an issue with an LLM deployment. What steps did you take, and what was the resolution?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the steps taken to troubleshoot the issue, including any debugging or logging used, and discuss the resolution, including any solutions or workarounds used.",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's ability to troubleshoot LLM deployments",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project you worked on that involved evaluating the performance of an LLM using metrics such as perplexity or accuracy. What approach did you take, and what were the results?",
+        "suggested_answer": "Use the STAR format to describe the situation, task, action, and result. Explain the approach taken, including any metrics used, and discuss the results, including any insights or conclusions drawn from the evaluation.",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with evaluating LLM performance",
+        "keywords": []
+      }
+    ],
+    "system_design_questions": [
+      {
+        "question": "Design a system for deploying and managing LLMs in a production environment using Docker and Kubernetes.",
+        "approach": "Start by describing the overall architecture of the system, including any components or services used. Discuss how Docker and Kubernetes are used to manage and scale LLM deployments, and explain any tradeoffs or limitations of the design.",
+        "hints": [
+          "Start with requirements",
+          "Discuss tradeoffs",
+          "Explain scalability"
+        ]
+      },
+      {
+        "question": "Design a prompt engineering strategy for an LLM task, including any techniques or tools used to optimize prompts.",
+        "approach": "Start by describing the overall goal of the prompt engineering strategy, including any metrics or objectives used to evaluate success. Discuss any techniques or tools used to optimize prompts, such as prompt tuning or prompt ensembling, and explain how these techniques are used to improve performance or efficiency.",
+        "hints": [
+          "Start with objectives",
+          "Discuss techniques",
+          "Explain evaluation"
+        ]
+      },
+      {
+        "question": "Design an RAG system for a given task, including any components or services used to retrieve and generate text.",
+        "approach": "Start by describing the overall architecture of the RAG system, including any components or services used. Discuss how the system retrieves and generates text, and explain any tradeoffs or limitations of the design.",
+        "hints": [
+          "Start with requirements",
+          "Discuss components",
+          "Explain tradeoffs"
+        ]
+      },
+      {
+        "question": "Design a system for evaluating the performance of an LLM, including any metrics or tools used to measure effectiveness.",
+        "approach": "Start by describing the overall goal of the evaluation system, including any metrics or objectives used to evaluate success. Discuss any metrics or tools used to measure effectiveness, such as perplexity or accuracy, and explain how these metrics are used to evaluate LLM performance.",
+        "hints": [
+          "Start with objectives",
+          "Discuss metrics",
+          "Explain evaluation"
+        ]
+      }
+    ],
+    "tips_and_tricks": [
+      "Use pre-trained embeddings to improve LLM performance",
+      "Optimize LLMs using techniques such as model pruning and knowledge distillation",
+      "Use Docker and Kubernetes to manage and scale LLM deployments",
+      "Implement prompt engineering strategies to improve LLM performance",
+      "Use RAG systems to retrieve and generate text",
+      "Evaluate LLM performance using metrics such as perplexity and accuracy",
+      "Use pre-trained LLMs as a starting point for fine-tuning",
+      "Experiment with different hyperparameters to improve LLM performance",
+      "Use techniques such as subwording and character-level modeling to handle out-of-vocabulary words",
+      "Use pre-trained prompt templates to improve prompt engineering"
+    ],
+    "estimated_duration_minutes": 120,
+    "interview_format": "mixed",
+    "company_research": "TechCorp AI is a leading provider of AI and ML solutions, with a focus on natural language processing and computer vision. The company has a strong research focus and is committed to developing innovative AI and ML technologies.",
+    "success_factors": [
+      "Strong understanding of LLMs and prompt engineering",
+      "Experience with deploying and managing LLMs in production environments",
+      "Ability to design and implement RAG systems",
+      "Strong problem-solving skills and ability to troubleshoot issues with LLM deployments"
+    ]
+  },
+  "cover_letter": {
+    "primary_version": "```json\n{\n  \"primary_version\": \"\nDear Hiring Manager,\n\nI am excited to apply for the Senior AI/ML Engineer position at TechCorp AI in San Francisco, CA. With 6 years of experience in the field, I am confident in my ability to design and implement machine learning pipelines, develop and optimize RAG systems, and build and maintain production LLM applications. My expertise in Python, LLMs, prompt engineering, LangChain, and LangGraph makes me a strong fit for this role.\n\nI am particularly drawn to",
+    "variations": [],
+    "key_narratives": [
+      "Strong technical background",
+      "Good role fit"
+    ]
+  },
+  "errors": []
+}

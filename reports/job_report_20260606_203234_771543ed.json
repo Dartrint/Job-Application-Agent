@@ -1,0 +1,325 @@
+{
+  "workflow_id": "771543ed-1e73-4dde-a7e2-0fd0b262efac",
+  "status": {
+    "job_analysis": "OK",
+    "cv_analysis": "OK",
+    "interview_prep": "OK",
+    "cover_letter": "OK"
+  },
+  "job_profile": {
+    "title": "Senior AI/ML Engineer",
+    "company": "TechCorp AI",
+    "seniority_level": "Senior",
+    "required_skills": [
+      "Python",
+      "LLMs",
+      "Prompt engineering",
+      "LangChain",
+      "LangGraph",
+      "Vector databases",
+      "Embeddings",
+      "System design",
+      "Distributed systems",
+      "Docker",
+      "Kubernetes"
+    ],
+    "nice_to_have_skills": [
+      "Open-source ML projects",
+      "Fine-tuning large language models",
+      "Agent frameworks",
+      "Cloud platforms (AWS, GCP, Azure)",
+      "Published research or technical writing"
+    ],
+    "responsibilities": [
+      "Design and implement machine learning pipelines",
+      "Develop and optimize RAG systems",
+      "Build and maintain production LLM applications",
+      "Collaborate with data engineers",
+      "Mentor junior engineers"
+    ],
+    "tech_stack": [
+      "LangChain",
+      "LangGraph",
+      "Docker",
+      "Kubernetes",
+      "Python"
+    ],
+    "compensation_range": "$180K - $250K + equity",
+    "location": "San Francisco, CA",
+    "employment_type": "Full-time",
+    "raw_text": "Senior AI/ML Engineer - San Francisco\n\nCompany: TechCorp AI\nLocation: San Francisco, CA\nEmployment Type: Full-time\nSalary: $180K - $250K + equity\n\nAbout the role:\nWe're looking for a Senior AI/ML Engineer to join our core platform team. You'll be responsible for building and scaling our LLM-based recommendation engine that powers our product for millions of users.\n\nKey Responsibilities:\n- Design and implement machine learning pipelines using LangChain and LangGraph\n- Develop and optimize RAG (Retrieval-Augmented Generation) systems\n- Build and maintain production LLM applications\n- Collaborate with data engineers to create efficient data pipelines\n- Mentor junior engineers on AI/ML best practices\n- Contribute to open-source ML projects\n\nRequired Skills:\n- 5+ years of experience in ML/AI engineering\n- Strong Python expertise\n- Experience with LLMs and prompt engineering\n- Knowledge of LangChain, LangGraph, or similar frameworks\n- Understanding of vector databases and embeddings\n- System design and distributed systems knowledge\n- Experience with deployment (Docker, Kubernetes)\n\nNice to Have:\n- Contributions to open-source ML projects\n- Experience with fine-tuning large language models\n- Knowledge of agent frameworks\n- Experience with cloud platforms (AWS, GCP, Azure)\n- Published research or technical writing\n\nWe offer:\n- Competitive compensation with equity\n- Remote/Hybrid work flexibility\n- Professional development budget\n- Health insurance and benefits"
+  },
+  "cv_analysis": {
+    "experience_years": 6.0,
+    "key_skills": [
+      "Python",
+      "LLMs",
+      "Prompt engineering",
+      "LangChain",
+      "LangGraph",
+      "Vector databases",
+      "Embeddings",
+      "System design",
+      "Distributed systems",
+      "Docker",
+      "Kubernetes",
+      "TensorFlow",
+      "PyTorch",
+      "scikit-learn",
+      "Hugging Face"
+    ],
+    "education": [
+      "BS Computer Science, UC Berkeley (2018)"
+    ],
+    "projects": [
+      "RAG chatbot \u2014 reduced support costs 40%",
+      "Open Source Contributor: LangChain community (100+ merged PRs)",
+      "Technical Writer: Published 5 articles on Medium about LLM applications",
+      "Conference Speaker: Talks on RAG systems at ML conferences"
+    ],
+    "matching_skills": [
+      "Python",
+      "LLMs",
+      "Prompt engineering",
+      "LangChain",
+      "LangGraph",
+      "Docker"
+    ],
+    "missing_skills": [
+      "Vector databases",
+      "Embeddings",
+      "System design",
+      "Distributed systems"
+    ],
+    "suggestions": [
+      "Include more details on experience with vector databases and embeddings",
+      "Highlight system design and distributed systems expertise",
+      "Emphasize leadership and technical initiative experience",
+      "Quantify achievements in terms of metrics and impact",
+      "Consider adding relevant certifications or courses"
+    ],
+    "improvement_score": 80.0
+  },
+  "interview_guide": {
+    "technical_questions": [
+      {
+        "question": "How do you optimize the performance of a large language model (LLM) using LangChain and LangGraph?",
+        "suggested_answer": "The candidate should discuss techniques such as model pruning, knowledge distillation, and quantization, and explain how LangChain and LangGraph can be used to implement these techniques",
+        "difficulty": "medium",
+        "why_asked": "To assess the candidate's knowledge of LLM optimization techniques and experience with LangChain and LangGraph",
+        "keywords": [
+          "LLM",
+          "LangChain",
+          "LangGraph",
+          "optimization"
+        ]
+      },
+      {
+        "question": "What is the difference between a RAG (Retrieval-Augmented Generator) system and a traditional LLM, and how do you develop and optimize a RAG system?",
+        "suggested_answer": "The candidate should explain the architecture of a RAG system, discuss the advantages of using a RAG system, and describe techniques for developing and optimizing a RAG system, such as fine-tuning the retrieval and generation components",
+        "difficulty": "hard",
+        "why_asked": "To evaluate the candidate's understanding of RAG systems and their ability to develop and optimize them",
+        "keywords": [
+          "RAG",
+          "LLM",
+          "retrieval",
+          "generation"
+        ]
+      },
+      {
+        "question": "How do you design and implement a machine learning pipeline using Python and Docker, and what are some best practices for deploying and maintaining the pipeline in a production environment?",
+        "suggested_answer": "The candidate should discuss the components of a machine learning pipeline, such as data preprocessing, model training, and model deployment, and explain how to use Python and Docker to implement the pipeline, as well as best practices for deploying and maintaining the pipeline, such as monitoring and logging",
+        "difficulty": "medium",
+        "why_asked": "To assess the candidate's experience with machine learning pipelines and their ability to design and implement them using Python and Docker",
+        "keywords": [
+          "machine learning",
+          "pipeline",
+          "Python",
+          "Docker"
+        ]
+      },
+      {
+        "question": "What is prompt engineering, and how do you use it to improve the performance of a large language model?",
+        "suggested_answer": "The candidate should define prompt engineering, discuss its importance in LLMs, and describe techniques for engineering effective prompts, such as using specific keywords and phrases",
+        "difficulty": "easy",
+        "why_asked": "To evaluate the candidate's understanding of prompt engineering and its application to LLMs",
+        "keywords": [
+          "prompt engineering",
+          "LLM",
+          "performance"
+        ]
+      },
+      {
+        "question": "How do you use Kubernetes to deploy and manage a production LLM application, and what are some best practices for ensuring scalability and reliability?",
+        "suggested_answer": "The candidate should discuss the components of a Kubernetes deployment, such as pods and services, and explain how to use Kubernetes to deploy and manage a production LLM application, as well as best practices for ensuring scalability and reliability, such as load balancing and monitoring",
+        "difficulty": "hard",
+        "why_asked": "To assess the candidate's experience with Kubernetes and their ability to deploy and manage a production LLM application",
+        "keywords": [
+          "Kubernetes",
+          "LLM",
+          "deployment",
+          "management"
+        ]
+      },
+      {
+        "question": "What are some common challenges when working with vector databases and embeddings, and how do you address them in a production environment?",
+        "suggested_answer": "The candidate should discuss common challenges such as data quality and indexing, and describe techniques for addressing them, such as data preprocessing and using efficient indexing algorithms",
+        "difficulty": "medium",
+        "why_asked": "To evaluate the candidate's understanding of vector databases and embeddings and their ability to address common challenges",
+        "keywords": [
+          "vector databases",
+          "embeddings",
+          "challenges"
+        ]
+      },
+      {
+        "question": "How do you use LangGraph to build and optimize a knowledge graph for a large language model, and what are some best practices for ensuring the accuracy and completeness of the graph?",
+        "suggested_answer": "The candidate should discuss the components of a knowledge graph, such as entities and relationships, and explain how to use LangGraph to build and optimize the graph, as well as best practices for ensuring the accuracy and completeness of the graph, such as using high-quality data sources and validating the graph",
+        "difficulty": "medium",
+        "why_asked": "To assess the candidate's experience with LangGraph and their ability to build and optimize a knowledge graph",
+        "keywords": [
+          "LangGraph",
+          "knowledge graph",
+          "optimization"
+        ]
+      },
+      {
+        "question": "What are some common use cases for large language models, and how do you design and implement a production LLM application for a specific use case?",
+        "suggested_answer": "The candidate should discuss common use cases such as text classification and generation, and describe techniques for designing and implementing a production LLM application, such as using a modular architecture and implementing monitoring and logging",
+        "difficulty": "hard",
+        "why_asked": "To evaluate the candidate's understanding of LLM use cases and their ability to design and implement a production LLM application",
+        "keywords": [
+          "LLM",
+          "use cases",
+          "application"
+        ]
+      }
+    ],
+    "behavioral_questions": [
+      {
+        "question": "Tell me about a time when you had to optimize the performance of a large language model. What steps did you take, and what were the results?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to optimize the performance of an LLM, explain the steps they took to optimize the model, and discuss the results, including any metrics or benchmarks used to evaluate the performance",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's experience with LLM optimization and their ability to apply optimization techniques in a real-world scenario",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project you worked on that involved building and deploying a production LLM application. What was your role in the project, and what were some of the challenges you faced?",
+        "suggested_answer": "The candidate should describe a specific project they worked on, explain their role in the project, and discuss the challenges they faced, including any technical or logistical challenges, and how they were addressed",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with building and deploying production LLM applications and their ability to work on complex projects",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to collaborate with a team to design and implement a machine learning pipeline. What was your role in the team, and how did you contribute to the project?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to collaborate with a team, explain their role in the team, and discuss how they contributed to the project, including any technical or logistical contributions",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's experience with collaboration and their ability to work effectively in a team",
+        "keywords": []
+      },
+      {
+        "question": "Describe a situation where you had to troubleshoot an issue with a production LLM application. What steps did you take to identify and resolve the issue?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to troubleshoot an issue, explain the steps they took to identify and resolve the issue, and discuss the results, including any metrics or benchmarks used to evaluate the performance",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with troubleshooting and their ability to resolve complex technical issues",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to communicate complex technical information to a non-technical audience. How did you approach the situation, and what strategies did you use to ensure effective communication?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to communicate complex technical information, explain how they approached the situation, and discuss the strategies they used to ensure effective communication, including any visual aids or analogies used",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's ability to communicate complex technical information and their experience with communication",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project you worked on that involved using prompt engineering to improve the performance of a large language model. What were some of the challenges you faced, and how did you address them?",
+        "suggested_answer": "The candidate should describe a specific project they worked on, explain the challenges they faced, and discuss how they addressed them, including any technical or logistical challenges, and how they were addressed",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with prompt engineering and their ability to apply prompt engineering techniques in a real-world scenario",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to design and implement a system for deploying and managing a production LLM application. What were some of the considerations you took into account, and how did you ensure the system was scalable and reliable?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to design and implement a system, explain the considerations they took into account, and discuss how they ensured the system was scalable and reliable, including any metrics or benchmarks used to evaluate the performance",
+        "difficulty": null,
+        "why_asked": "To assess the candidate's experience with system design and their ability to design and implement scalable and reliable systems",
+        "keywords": []
+      },
+      {
+        "question": "Describe a situation where you had to balance the trade-offs between model performance and computational resources when deploying a production LLM application. How did you approach the situation, and what strategies did you use to optimize the performance of the model?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to balance trade-offs, explain how they approached the situation, and discuss the strategies they used to optimize the performance of the model, including any techniques used to reduce computational resources or improve model performance",
+        "difficulty": null,
+        "why_asked": "To evaluate the candidate's experience with model performance and computational resources and their ability to balance trade-offs",
+        "keywords": []
+      }
+    ],
+    "system_design_questions": [
+      {
+        "question": "Design a system for deploying and managing a production LLM application that can handle a large volume of requests. What components would you include, and how would you ensure the system is scalable and reliable?",
+        "approach": "Start by identifying the requirements of the system, including the volume of requests and the performance metrics. Then, design a system that includes components such as load balancers, application servers, and databases. Finally, discuss how to ensure the system is scalable and reliable, including techniques such as horizontal scaling and monitoring",
+        "hints": [
+          "start with requirements",
+          "discuss trade-offs",
+          "consider scalability and reliability"
+        ]
+      },
+      {
+        "question": "Design a machine learning pipeline that includes data preprocessing, model training, and model deployment. What components would you include, and how would you ensure the pipeline is efficient and scalable?",
+        "approach": "Start by identifying the requirements of the pipeline, including the data sources and the performance metrics. Then, design a pipeline that includes components such as data ingestion, data preprocessing, model training, and model deployment. Finally, discuss how to ensure the pipeline is efficient and scalable, including techniques such as parallel processing and caching",
+        "hints": [
+          "start with requirements",
+          "discuss trade-offs",
+          "consider efficiency and scalability"
+        ]
+      },
+      {
+        "question": "Design a system for building and optimizing a knowledge graph for a large language model. What components would you include, and how would you ensure the graph is accurate and complete?",
+        "approach": "Start by identifying the requirements of the graph, including the entities and relationships. Then, design a system that includes components such as data ingestion, data preprocessing, and graph construction. Finally, discuss how to ensure the graph is accurate and complete, including techniques such as data validation and graph pruning",
+        "hints": [
+          "start with requirements",
+          "discuss trade-offs",
+          "consider accuracy and completeness"
+        ]
+      },
+      {
+        "question": "Design a system for using prompt engineering to improve the performance of a large language model. What components would you include, and how would you ensure the system is effective and efficient?",
+        "approach": "Start by identifying the requirements of the system, including the performance metrics and the prompt engineering techniques. Then, design a system that includes components such as prompt generation, prompt evaluation, and model fine-tuning. Finally, discuss how to ensure the system is effective and efficient, including techniques such as prompt optimization and model pruning",
+        "hints": [
+          "start with requirements",
+          "discuss trade-offs",
+          "consider effectiveness and efficiency"
+        ]
+      }
+    ],
+    "tips_and_tricks": [
+      "Use a modular architecture to design and implement machine learning pipelines",
+      "Implement monitoring and logging to ensure the pipeline is running correctly",
+      "Use techniques such as parallel processing and caching to improve the efficiency of the pipeline",
+      "Use prompt engineering to improve the performance of large language models",
+      "Implement data validation and graph pruning to ensure the accuracy and completeness of knowledge graphs",
+      "Use techniques such as horizontal scaling and load balancing to ensure the scalability and reliability of production LLM applications",
+      "Use metrics and benchmarks to evaluate the performance of LLMs and machine learning pipelines",
+      "Consider the trade-offs between model performance and computational resources when deploying production LLM applications",
+      "Use techniques such as model pruning and quantization to reduce the computational resources required by LLMs",
+      "Implement data preprocessing and feature engineering to improve the quality of the data used to train LLMs"
+    ],
+    "estimated_duration_minutes": 120,
+    "interview_format": "mixed",
+    "company_research": "TechCorp AI is a leading provider of AI and machine learning solutions, with a focus on natural language processing and large language models. The company is committed to innovation and excellence, and is looking for talented engineers to join its team.",
+    "success_factors": [
+      "Experience with large language models and machine learning pipelines",
+      "Strong understanding of prompt engineering and knowledge graphs",
+      "Ability to design and implement scalable and reliable systems",
+      "Excellent communication and collaboration skills"
+    ]
+  },
+  "cover_letter": {
+    "primary_version": "```json\n{\n  \"primary_version\": \"\n    Dear Hiring Manager,\n\n    I am writing to express my strong interest in the Senior AI/ML Engineer position at TechCorp AI in San Francisco, CA. As a seasoned professional with 6.0 years of experience in the field, I am confident in my ability to design and implement machine learning pipelines, develop and optimize RAG systems, and build and maintain production LLM applications.\n\n    With a solid background in Python, I have developed a passion for working wit",
+    "variations": [],
+    "key_narratives": [
+      "Strong technical background",
+      "Good role fit"
+    ]
+  },
+  "errors": []
+}

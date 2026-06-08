@@ -1,0 +1,313 @@
+{
+  "workflow_id": "a00f5e85-b119-4d9c-a144-9a06c315ed9a",
+  "status": {
+    "job_analysis": "OK",
+    "cv_analysis": "OK",
+    "interview_prep": "OK",
+    "cover_letter": "OK"
+  },
+  "job_profile": {
+    "title": "AI Engineer - Level Intern =>Fresher (NLP/LLM)",
+    "company": "Mebisoft",
+    "seniority_level": "Junior",
+    "required_skills": [
+      "Python",
+      "C/C++",
+      "ML/DL",
+      "NLP",
+      "Tokenization",
+      "Embedding",
+      "Transformer"
+    ],
+    "nice_to_have_skills": [
+      "LLMs",
+      "GPT",
+      "LLaMA",
+      "Prompt Engineering",
+      "HuggingFace",
+      "Transformers",
+      "LangChain/LlamaIndex"
+    ],
+    "responsibilities": [
+      "Tham gia nghi\u00ean c\u1ee9u, ph\u00e1t tri\u1ec3n v\u00e0 tri\u1ec3n khai c\u00e1c m\u00f4 h\u00ecnh AI",
+      "L\u00e0m vi\u1ec7c v\u1edbi d\u1eef li\u1ec7u th\u1ef1c t\u1ebf",
+      "Th\u1ef1c hi\u1ec7n training, evaluation, t\u1ed1i \u01b0u v\u00e0 tri\u1ec3n khai m\u00f4 h\u00ecnh",
+      "Ph\u1ed1i h\u1ee3p v\u1edbi team \u0111\u1ec3 t\u00edch h\u1ee3p m\u00f4 h\u00ecnh AI v\u00e0o h\u1ec7 th\u1ed1ng s\u1ea3n ph\u1ea9m",
+      "Vi\u1ebft t\u00e0i li\u1ec7u k\u1ef9 thu\u1eadt c\u01a1 b\u1ea3n cho module/m\u00f4 h\u00ecnh \u0111ang ph\u1ee5 tr\u00e1ch"
+    ],
+    "tech_stack": [
+      "Python",
+      "C/C++",
+      "ML/DL",
+      "NLP",
+      "Tokenization",
+      "Embedding",
+      "Transformer",
+      "HuggingFace",
+      "Transformers",
+      "LangChain/LlamaIndex"
+    ],
+    "compensation_range": "Th\u1ecfa thu\u1eadn theo n\u0103ng l\u1ef1c v\u00e0 th\u1eddi gian l\u00e0m vi\u1ec7c",
+    "location": "T\u1ea7ng 7, Ph\u00f2ng 7.3, T\u00f2a nh\u00e0 Etown 3, 364 C\u1ed9ng H\u00f2a, Ph\u01b0\u1eddng T\u00e2n B\u00ecnh, Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh",
+    "employment_type": "Intern",
+    "raw_text": "[Tuy\u1ec3n\n \nd\u1ee5ng]\n \nAI\n \nEngineer\n \n-\n \nLevel\n \nIntern\n \n=>Fresher\n \n(NLP/LLM)\n \nMebisoft\n \n\u0111ang\n \nm\u1edf\n \nr\u1ed9ng\n \n\u0111\u1ed9i\n \nng\u0169\n \nAI\n \n\u0111\u1ec3\n \ntri\u1ec3n\n \nkhai\n \nc\u00e1c\n \nd\u1ef1\n \n\u00e1n\n \nAI\n \n\u1ee9ng\n \nd\u1ee5ng\n \ncho\n \ndoanh\n \nnghi\u1ec7p,\n \nt\u1eadp\n \ntrung\n \nv\u00e0o\n \nNLP/\n \nLLM:\n \nX\u00e2y\n \nd\u1ef1ng\n \nc\u00e1c\n \nAI\n \nAgent\n \nph\u1ee5c\n \nv\u1ee5\n \nAutomation,\n \nChuy\u1ec3n\n \n\u0111\u1ed5i\n \ns\u1ed1\n \nv\u00e0\n \nt\u1ed1i\n \n\u01b0u\n \nquy\n \ntr\u00ecnh\n \ncho\n \ndoanh\n \nnghi\u1ec7p.\n \n \n1.\n \nM\u00d4\n \nT\u1ea2\n \nC\u00d4NG\n \nVI\u1ec6C\n \n-\n \nTham\n \ngia\n \nnghi\u00ean\n \nc\u1ee9u,\n \nph\u00e1t\n \ntri\u1ec3n\n \nv\u00e0\n \ntri\u1ec3n\n \nkhai\n \nc\u00e1c\n \nm\u00f4\n \nh\u00ecnh\n \nAI\n \ntheo\n \ny\u00eau\n \nc\u1ea7u\n \nd\u1ef1\n \n\u00e1n.\n \n-\n \nL\u00e0m\n \nvi\u1ec7c\n \nv\u1edbi\n \nd\u1eef\n \nli\u1ec7u\n \nth\u1ef1c\n \nt\u1ebf\n \n(Text,\n \nt\u00e0i\n \nli\u1ec7u\n \ndoanh\n \nnghi\u1ec7p).\n \n-\n \nTh\u1ef1c\n \nhi\u1ec7n\n \ntraining,\n \nevaluation,\n \nt\u1ed1i\n \n\u01b0u\n \nv\u00e0\n \ntri\u1ec3n\n \nkhai\n \nm\u00f4\n \nh\u00ecnh.\n \n-\n \nPh\u1ed1i\n \nh\u1ee3p\n \nv\u1edbi\n \nteam\n \n\u0111\u1ec3\n \nt\u00edch\n \nh\u1ee3p\n \nm\u00f4\n \nh\u00ecnh\n \nAI\n \nv\u00e0o\n \nh\u1ec7\n \nth\u1ed1ng\n \ns\u1ea3n\n \nph\u1ea9m.\n \n-\n \nVi\u1ebft\n \nt\u00e0i\n \nli\u1ec7u\n \nk\u1ef9\n \nthu\u1eadt\n \nc\u01a1\n \nb\u1ea3n\n \ncho\n \nmodule/\n \nm\u00f4\n \nh\u00ecnh\n \n\u0111ang\n \nph\u1ee5\n \ntr\u00e1ch.\n \n \n2.\n \nY\u00caU\n \nC\u1ea6U\n \n\u1ee8NG\n \nVI\u00caN\n \n-\n \nSinh\n \nvi\u00ean\n \nn\u0103m\n \ncu\u1ed1i\n \nho\u1eb7c\n \nm\u1edbi\n \nt\u1ed1t\n \nnghi\u1ec7p\n \nc\u00e1c\n \nng\u00e0nh:\n \nC\u00f4ng\n \nngh\u1ec7\n \nTh\u00f4ng\n \ntin,\n \nKhoa\n \nh\u1ecdc\n \nM\u00e1y\n \nt\u00ednh,\n \nTr\u00ed\n \ntu\u1ec7\n \nNh\u00e2n\n \nt\u1ea1o,\n \nKhoa\n \nh\u1ecdc\n \nD\u1eef\n \nli\u1ec7u\n \nho\u1eb7c\n \nc\u00e1c\n \nng\u00e0nh\n \nt\u01b0\u01a1ng\n \n\u0111\u01b0\u01a1ng.\n \n-\n \nC\u00f3\n \nn\u1ec1n\n \nt\u1ea3ng\n \nv\u1ec1\n \nng\u00f4n\n \nng\u1eef\n \nl\u1eadp\n \ntr\u00ecnh\n \nPython,\n \nC/C++\n \nv\u00e0\n \nt\u01b0\n \nduy\n \nl\u1eadp\n \ntr\u00ecnh\n \nt\u1ed1t.\n \n-\n \nC\u00f3\n \nkh\u1ea3\n \nn\u0103ng\n \n\u0111\u1ecdc\n \nhi\u1ec3u\n \nt\u00e0i\n \nli\u1ec7u\n \nk\u1ef9\n \nthu\u1eadt\n \nb\u1eb1ng\n \nti\u1ebfng\n \nAnh.\n \n-\n \nTinh\n \nth\u1ea7n\n \nh\u1ecdc\n \nh\u1ecfi,\n \nch\u1ee7\n \n\u0111\u1ed9ng\n \nv\u00e0\n \ntr\u00e1ch\n \nnhi\u1ec7m\n \nv\u1edbi\n \nc\u00f4ng\n \nvi\u1ec7c,\n \nnhi\u1ec7m\n \nv\u1ee5\n \n\u0111\u01b0\u1ee3c\n \ngiao.\n \n-\n \nC\u00f3\n \n\u0111\u1ecbnh\n \nh\u01b0\u1edbng\n \nph\u00e1t\n \ntri\u1ec3n\n \nl\u00e2u\n \nd\u00e0i\n \ntrong\n \nl\u0129nh\n \nv\u1ef1c\n \nTr\u00ed\n \ntu\u1ec7\n \nNh\u00e2n\n \nt\u1ea1o\n \n(AI).\n \n \n+\n \nY\u00eau\n \nc\u1ea7u\n \nk\u1ef9\n \nthu\u1eadt\n \n-\n \nC\u00f3\n \nki\u1ebfn\n \nth\u1ee9c\n \nc\u01a1\n \nb\u1ea3n\n \nv\u1ec1:\n \nML/DL,\n \nNLP,\n \nTokenization,\n \nEmbedding,\n \nTransformer.\n \n-\n \n\u0110\u00e3\n \nc\u00f3\n \nkinh\n \nnghi\u1ec7m\n \nv\u1edbi:\n \nLLMs,\n \nGPT,\n \nLLaMA,...\n \nv\u00e0\n \nc\u00e1c\n \nm\u00f4\n \nh\u00ecnh\n \nm\u00e3\n \nngu\u1ed3n\n \nm\u1edf\n \nkh\u00e1c,\n \nPrompt\n \nEngineering.\n \n-\n \nC\u00f3\n \nt\u01b0\n \nduy\n \nh\u1ec7\n \nth\u1ed1ng\n \nkhi\n \nx\u00e2y\n \nd\u1ef1ng\n \nAgent,\n \nRAG,\n \nWorkflow\n \nAI.\n \n-\n \n\u0110\u00e3\n \nt\u1eebng\n \nth\u1ef1c\n \nhi\u1ec7n\n \nc\u00e1c\n \nb\u00e0i\n \nt\u1eadp\n \nl\u1edbn\n \nho\u1eb7c\n \nd\u1ef1\n \n\u00e1n\n \nc\u00e1\n \nnh\u00e2n\n \nli\u00ean\n \nquan\n \n\u0111\u1ebfn:\n \nChatbot,\n \nAutomation,\n \nNLP,\n \nLLM\n \nl\u00e0\n \nm\u1ed9t\n \n\u0111i\u1ec3m\n \nc\u1ed9ng.\n \n-\n \nC\u00f3\n \nkinh\n \nnghi\u1ec7m\n \nv\u1edbi\n \nc\u00e1c\n \nframework:\n \nHuggingFace,\n \nTransformers,\n \nLangChain/\n \nLlamaIndex,\u2026\n \nl\u00e0\n \nm\u1ed9t\n \nl\u1ee3i\n \nth\u1ebf.\n \n \n3.\n \nQUY\u1ec0N\n \nL\u1ee2I\n \n-\n \n\u0110\u01b0\u1ee3c\n \ntham\n \ngia\n \nc\u00e1c\n \nd\u1ef1\n \n\u00e1n\n \nth\u1ef1c\n \nt\u1ebf\n \nc\u1ee7a\n \nc\u00f4ng\n \nty.\n \n-\n \nM\u00f4i\n \ntr\u01b0\u1eddng\n \nn\u0103ng\n \n\u0111\u1ed9ng,\n \nc\u1edfi\n \nm\u1edf,\n \nkhuy\u1ebfn\n \nkh\u00edch\n \nh\u1ecdc\n \nh\u1ecfi.\n \n-\n \nC\u00f3\n \nl\u1ed9\n \ntr\u00ecnh\n \nth\u0103ng\n \nti\u1ebfn\n \nr\u00f5\n \nr\u00e0ng,\n \n\u0111\u01b0\u1ee3c\n \n\u0111\u00e1nh\n \ngi\u00e1\n \nhi\u1ec7u\n \nsu\u1ea5t\n \ntheo\n \nquy\n \n\u0111\u1ecbnh\n \nc\u1ee7a\n \nc\u00f4ng\n \nty.\n \n-\n \nC\u00f3\n \nh\u1ed7\n \ntr\u1ee3\n \nd\u1ea5u\n \nm\u1ed9c\n \nth\u1ef1c\n \nt\u1eadp\n \n\u0111\u1ed1i\n \nv\u1edbi\n \nsinh\n \nvi\u00ean.\n \n-\n \nM\u1ee9c\n \nh\u1ed7\n \ntr\u1ee3/\n \nl\u01b0\u01a1ng/\n \nth\u01b0\u1edfng:\n \nTh\u1ecfa\n \nthu\u1eadn\n \ntheo\n \nn\u0103ng\n \nl\u1ef1c\n \nv\u00e0\n \nth\u1eddi\n \ngian\n \nl\u00e0m\n \nvi\u1ec7c.\n \n \n4.\n \nC\u00c1CH\n \nTH\u1ee8C\n \n\u1ee8NG\n \nTUY\u1ec2N\n \n\u1ee8ng\n \nvi\u00ean\n \ng\u1eedi\n \nh\u1ed3\n \ns\u01a1\n \nv\u1ec1\n \n\u0111\u1ecba\n \nch\u1ec9:\n \n\ud83d\udce9\n \nEmail:\n \ntuyendung@mebisoft.vn\n \n \n\ud83d\udccc\n \nTi\u00eau\n \n\u0111\u1ec1\n \nemail:\n \n[AI\n \n\u2013\n \nNLP/LLM\n \nIntern/Fresher]\n \n\u2013\n \nH\u1ecd\n \nt\u00ean\n \n \n\ud83d\uddc3\n \nH\u1ed3\n \ns\u01a1\n \nbao\n \ng\u1ed3m:\n \n1.\n \nCV\n \n2.\n \nLink\n \nGitHub/\n \nPortfolio/\n \nProject\n \nv\u1ec1\n \nAI\n \n(n\u1ebfu\n \nc\u00f3)\n \n\ud83c\udfe2\n \n\u0110\u1ecba\n \n\u0111i\u1ec3m\n \nl\u00e0m\n \nvi\u1ec7c:\n \nT\u1ea7ng\n \n7,\n \nPh\u00f2ng\n \n7.3,\n \nT\u00f2a\n \nnh\u00e0\n \nEtown\n \n3,\n \n364\n \nC\u1ed9ng\n \nHo\u00e0,\n \nPh\u01b0\u1eddng\n \nT\u00e2n\n \nB\u00ecnh,\n \nTh\u00e0nh\n \nph\u1ed1\n \nH\u1ed3\n \nCh\u00ed\n \nMinh\n \n\ud83d\udd57\nTh\u1eddi\n \ngian\n \nl\u00e0m\n \nvi\u1ec7c:\n \nT\u1eeb\n \nTh\u1ee9\n \nHai\n \n\u0111\u1ebfn\n \nTh\u1ee9\n \nS\u00e1u\n \n(S\u00e1ng:\n \n08h30\n \n-\n \n12h00;\n \nChi\u1ec1u:\n \n13h30\n \n-\n \n18h00)\n \n\ud83d\udcde\nLi\u00ean\n \nh\u1ec7:\n \n0786.225.627\n \n-\n \nP.HCNS"
+  },
+  "cv_analysis": {
+    "experience_years": 0.0,
+    "key_skills": [
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "LangGraph",
+      "FAISS",
+      "SQL",
+      "Docker",
+      "Git",
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face",
+      "OpenAI API"
+    ],
+    "education": [
+      "B.Sc. in Computer Science, GPA: 3.6/4.0, 2022-2026"
+    ],
+    "projects": [
+      "Healthcare AI Chatbot: Built a chatbot using RAG, vector database, and LLM orchestration",
+      "Document Q&A; Assistant: Developed a retrieval system for enterprise documents"
+    ],
+    "matching_skills": [
+      "Python",
+      "ML/DL",
+      "NLP",
+      "HuggingFace",
+      "LangChain"
+    ],
+    "missing_skills": [
+      "C/C++",
+      "Tokenization",
+      "Embedding",
+      "Transformer"
+    ],
+    "suggestions": [
+      "Add C/C++ programming skills to the CV",
+      "Include experience with tokenization and embedding techniques",
+      "Highlight knowledge of transformer models",
+      "Consider adding more details about MLOps and scalable AI solutions",
+      "Provide specific metrics or achievements in projects"
+    ],
+    "improvement_score": 60.0
+  },
+  "interview_guide": {
+    "technical_questions": [
+      {
+        "question": "What is the difference between supervised and unsupervised learning in the context of NLP?",
+        "suggested_answer": "Supervised learning involves training a model on labeled data, while unsupervised learning involves training a model on unlabeled data. In NLP, supervised learning is often used for tasks like text classification, while unsupervised learning is used for tasks like clustering or dimensionality reduction.",
+        "difficulty": "easy",
+        "why_asked": "To assess basic understanding of machine learning concepts",
+        "keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "NLP"
+        ]
+      },
+      {
+        "question": "How does tokenization work in NLP, and what are some common tokenization techniques?",
+        "suggested_answer": "Tokenization is the process of breaking down text into individual words or tokens. Common tokenization techniques include word-level tokenization, subword tokenization, and character-level tokenization. Word-level tokenization splits text into individual words, while subword tokenization splits words into subwords or word pieces.",
+        "difficulty": "medium",
+        "why_asked": "To evaluate understanding of NLP fundamentals",
+        "keywords": [
+          "tokenization",
+          "NLP",
+          "subword tokenization"
+        ]
+      },
+      {
+        "question": "What is the purpose of embedding in NLP, and how does it work?",
+        "suggested_answer": "Embedding in NLP is a technique used to represent words or tokens as dense vectors in a high-dimensional space. This allows words with similar meanings to be mapped to nearby points in the vector space, enabling the model to capture semantic relationships between words.",
+        "difficulty": "medium",
+        "why_asked": "To assess understanding of NLP concepts",
+        "keywords": [
+          "embedding",
+          "NLP",
+          "word vectors"
+        ]
+      },
+      {
+        "question": "How does the FAISS library work, and what are its advantages in NLP applications?",
+        "suggested_answer": "FAISS is a library for efficient similarity search and clustering of dense vectors. It works by indexing the vectors and using algorithms like k-means or hierarchical clustering to efficiently search for similar vectors. FAISS is often used in NLP applications for tasks like semantic search or text clustering.",
+        "difficulty": "medium",
+        "why_asked": "To evaluate understanding of specific libraries and tools",
+        "keywords": [
+          "FAISS",
+          "similarity search",
+          "clustering"
+        ]
+      },
+      {
+        "question": "What is the difference between a language model and a language generator, and how do they work?",
+        "suggested_answer": "A language model is a statistical model that predicts the next word in a sequence of words, given the context of the previous words. A language generator, on the other hand, is a model that generates text based on a given prompt or topic. Language generators often use language models as a component to generate coherent and context-dependent text.",
+        "difficulty": "hard",
+        "why_asked": "To assess advanced understanding of NLP concepts",
+        "keywords": [
+          "language model",
+          "language generator",
+          "text generation"
+        ]
+      },
+      {
+        "question": "How does the LangChain library work, and what are its advantages in building conversational AI applications?",
+        "suggested_answer": "LangChain is a library for building conversational AI applications. It works by providing a framework for developing and deploying language models, as well as tools for integrating with other libraries and services. LangChain is often used in applications like chatbots, voice assistants, or text-based interfaces.",
+        "difficulty": "medium",
+        "why_asked": "To evaluate understanding of specific libraries and tools",
+        "keywords": [
+          "LangChain",
+          "conversational AI",
+          "language models"
+        ]
+      },
+      {
+        "question": "What is the purpose of the LangGraph library, and how does it work?",
+        "suggested_answer": "LangGraph is a library for building and manipulating graphs of language data. It works by providing a framework for creating and querying graphs of words, entities, or other linguistic units. LangGraph is often used in applications like language understanding, text analysis, or information retrieval.",
+        "difficulty": "medium",
+        "why_asked": "To assess understanding of specific libraries and tools",
+        "keywords": [
+          "LangGraph",
+          "language graphs",
+          "graph-based models"
+        ]
+      },
+      {
+        "question": "How does the FastAPI framework work, and what are its advantages in building web applications?",
+        "suggested_answer": "FastAPI is a modern web framework for building APIs. It works by providing a simple and intuitive API for defining routes, handling requests, and returning responses. FastAPI is often used in applications like web services, microservices, or real-time data processing.",
+        "difficulty": "easy",
+        "why_asked": "To evaluate understanding of web development frameworks",
+        "keywords": [
+          "FastAPI",
+          "web framework",
+          "API development"
+        ]
+      }
+    ],
+    "behavioral_questions": [
+      {
+        "question": "Tell me about a time when you had to learn a new programming language or technology. How did you approach the learning process?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to learn a new programming language or technology. They should explain how they approached the learning process, including any resources they used, challenges they faced, and how they overcame them.",
+        "difficulty": null,
+        "why_asked": "To assess ability to learn and adapt to new technologies",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project you worked on where you had to collaborate with others. What was your role, and how did you contribute to the project?",
+        "suggested_answer": "The candidate should describe a specific project they worked on with others. They should explain their role in the project, including any responsibilities they had, and how they contributed to the project's success.",
+        "difficulty": null,
+        "why_asked": "To evaluate teamwork and collaboration skills",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you encountered a difficult technical problem. How did you approach the problem, and what was the outcome?",
+        "suggested_answer": "The candidate should describe a specific situation where they encountered a difficult technical problem. They should explain how they approached the problem, including any steps they took to troubleshoot or debug the issue, and what the outcome was.",
+        "difficulty": null,
+        "why_asked": "To assess problem-solving skills and ability to overcome technical challenges",
+        "keywords": []
+      },
+      {
+        "question": "Describe a situation where you had to communicate complex technical information to a non-technical audience. How did you approach the communication, and what strategies did you use?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to communicate complex technical information to a non-technical audience. They should explain how they approached the communication, including any strategies they used to simplify the information or make it more accessible to the audience.",
+        "difficulty": null,
+        "why_asked": "To evaluate communication skills and ability to explain technical concepts to non-technical stakeholders",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you received feedback or criticism on your work. How did you respond to the feedback, and what changes did you make as a result?",
+        "suggested_answer": "The candidate should describe a specific situation where they received feedback or criticism on their work. They should explain how they responded to the feedback, including any changes they made to their work or processes as a result.",
+        "difficulty": null,
+        "why_asked": "To assess ability to receive and act on feedback",
+        "keywords": []
+      },
+      {
+        "question": "Describe a project or initiative you led or contributed to that you are particularly proud of. What was your role, and what did you achieve?",
+        "suggested_answer": "The candidate should describe a specific project or initiative they led or contributed to that they are particularly proud of. They should explain their role in the project, including any responsibilities they had, and what they achieved as a result of their efforts.",
+        "difficulty": null,
+        "why_asked": "To evaluate leadership skills and ability to drive results",
+        "keywords": []
+      },
+      {
+        "question": "Tell me about a time when you had to work under pressure or meet a tight deadline. How did you manage your time, and what was the outcome?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to work under pressure or meet a tight deadline. They should explain how they managed their time, including any strategies they used to prioritize tasks or manage stress, and what the outcome was.",
+        "difficulty": null,
+        "why_asked": "To assess ability to work under pressure and manage time effectively",
+        "keywords": []
+      },
+      {
+        "question": "Describe a situation where you had to adapt to a new process or system. How did you adapt, and what did you learn from the experience?",
+        "suggested_answer": "The candidate should describe a specific situation where they had to adapt to a new process or system. They should explain how they adapted, including any challenges they faced, and what they learned from the experience.",
+        "difficulty": null,
+        "why_asked": "To evaluate ability to adapt to change and learn from new experiences",
+        "keywords": []
+      }
+    ],
+    "system_design_questions": [
+      {
+        "question": "Design a system for building and deploying language models for conversational AI applications.",
+        "approach": "Start by identifying the key components of the system, including data ingestion, model training, and model deployment. Discuss the tradeoffs between different design choices, such as using a cloud-based platform versus on-premises infrastructure.",
+        "hints": [
+          "Consider the scalability and performance requirements of the system",
+          "Discuss the importance of data quality and preprocessing in building effective language models"
+        ]
+      },
+      {
+        "question": "Design a system for real-time text analysis and sentiment analysis.",
+        "approach": "Start by identifying the key components of the system, including text ingestion, preprocessing, and analysis. Discuss the tradeoffs between different design choices, such as using a rule-based approach versus a machine learning-based approach.",
+        "hints": [
+          "Consider the importance of handling out-of-vocabulary words and domain-specific terminology",
+          "Discuss the tradeoffs between accuracy and latency in real-time text analysis"
+        ]
+      },
+      {
+        "question": "Design a system for building and deploying recommender systems for content recommendation.",
+        "approach": "Start by identifying the key components of the system, including user data ingestion, model training, and model deployment. Discuss the tradeoffs between different design choices, such as using a collaborative filtering approach versus a content-based filtering approach.",
+        "hints": [
+          "Consider the importance of handling cold start problems and sparse user data",
+          "Discuss the tradeoffs between accuracy and diversity in content recommendation"
+        ]
+      },
+      {
+        "question": "Design a system for natural language processing and information extraction from unstructured text data.",
+        "approach": "Start by identifying the key components of the system, including text ingestion, preprocessing, and analysis. Discuss the tradeoffs between different design choices, such as using a rule-based approach versus a machine learning-based approach.",
+        "hints": [
+          "Consider the importance of handling named entities, part-of-speech tagging, and dependency parsing",
+          "Discuss the tradeoffs between accuracy and efficiency in natural language processing"
+        ]
+      }
+    ],
+    "tips_and_tricks": [
+      "Be prepared to explain your thought process and design decisions",
+      "Use simple and concise language to explain complex technical concepts",
+      "Practice whiteboarding exercises to improve your ability to communicate technical ideas",
+      "Review the company's products and services to understand their technology stack and challenges",
+      "Be honest and transparent about your strengths and weaknesses",
+      "Show enthusiasm and passion for the field and the company",
+      "Use the STAR method to structure your responses to behavioral questions",
+      "Practice answering system design questions to improve your ability to think critically and creatively",
+      "Review the fundamentals of machine learning and deep learning to be prepared for technical questions"
+    ],
+    "estimated_duration_minutes": 120,
+    "interview_format": "technical",
+    "company_research": "Mebisoft is a company that specializes in building AI-powered solutions for various industries. They have a strong focus on natural language processing and machine learning. The company culture values innovation, teamwork, and continuous learning.",
+    "success_factors": [
+      "Strong foundation in machine learning and deep learning",
+      "Experience with natural language processing and language models",
+      "Ability to communicate complex technical ideas simply and effectively",
+      "Strong problem-solving skills and ability to think critically and creatively"
+    ]
+  },
+  "cover_letter": {
+    "primary_version": "```json\n{\n  \"primary_version\": \"\n    Dear Hiring Manager,\n    I am excited to apply for the AI Engineer position at Mebisoft, where I can utilize my skills in Python, ML/DL, NLP, HuggingFace, and LangChain to contribute to the development of innovative AI models. As a fresh graduate with a strong foundation in computer science and a passion for natural language processing, I am confident that I would be a great fit for this role.\n    With a solid understanding of machine learning and deep learni",
+    "variations": [],
+    "key_narratives": [
+      "Strong technical background",
+      "Good role fit"
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Report — {{ job.title or 'Analysis' }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #222; max-width: 900px; margin: 0 auto; padding: 24px; background: #f7f8fb; }
+    .card { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    h1, h2, h3 { color: #333; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: bold; }
+    .ok { background: #d4edda; color: #155724; }
+    .fail { background: #f8d7da; color: #721c24; }
+    .metric { display: inline-block; min-width: 140px; margin-right: 16px; }
+    .metric strong { display: block; font-size: 24px; color: #667eea; }
+    ul { padding-left: 20px; }
+    .question { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #eee; }
+    .footer { text-align: center; color: #666; font-size: 13px; margin-top: 24px; }
+    pre { white-space: pre-wrap; background: #f4f4f4; padding: 12px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Job Application Analysis Report</h1>
+    <p><strong>Workflow ID:</strong> {{ workflow_id }}</p>
+    <p><strong>Generated:</strong> {{ generated_at }}</p>
+    {% if execution_seconds %}
+    <p><strong>Execution time:</strong> {{ "%.1f"|format(execution_seconds) }}s</p>
+    {% endif %}
+    <p>
+      <span class="badge {{ 'ok' if all_ok else 'fail' }}">
+        {{ 'All agents completed successfully' if all_ok else 'Completed with issues' }}
+      </span>
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Workflow Status</h2>
+    <ul>
+      {% for key, value in status.items() %}
+      <li>{{ key.replace('_', ' ').title() }}: <strong>{{ value }}</strong></li>
+      {% endfor %}
+    </ul>
+    {% if errors %}
+    <h3>Errors</h3>
+    <ul>
+      {% for error in errors %}
+      <li>{{ error }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>Job Profile</h2>
+    <div class="metric"><strong>{{ job.title or 'N/A' }}</strong>Position</div>
+    <div class="metric"><strong>{{ job.company or 'N/A' }}</strong>Company</div>
+    <div class="metric"><strong>{{ job.seniority_level or 'N/A' }}</strong>Seniority</div>
+    {% if job.location %}<p><strong>Location:</strong> {{ job.location }}</p>{% endif %}
+    {% if job.compensation_range %}<p><strong>Compensation:</strong> {{ job.compensation_range }}</p>{% endif %}
+    {% if job.required_skills %}
+    <h3>Required Skills</h3>
+    <ul>{% for skill in job.required_skills %}<li>{{ skill }}</li>{% endfor %}</ul>
+    {% endif %}
+    {% if job.responsibilities %}
+    <h3>Key Responsibilities</h3>
+    <ul>{% for item in job.responsibilities %}<li>{{ item }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>CV Match Analysis</h2>
+    <div class="metric"><strong>{{ cv.improvement_score or 0 }}%</strong>Match Score</div>
+    <div class="metric"><strong>{{ cv.experience_years or 0 }}</strong>Years Experience</div>
+    {% if cv.matching_skills %}
+    <h3>Matching Skills</h3>
+    <ul>{% for skill in cv.matching_skills %}<li>{{ skill }}</li>{% endfor %}</ul>
+    {% endif %}
+    {% if cv.missing_skills %}
+    <h3>Missing Skills</h3>
+    <ul>{% for skill in cv.missing_skills %}<li>{{ skill }}</li>{% endfor %}</ul>
+    {% endif %}
+    {% if cv.suggestions %}
+    <h3>Improvement Suggestions</h3>
+    <ol>{% for item in cv.suggestions %}<li>{{ item }}</li>{% endfor %}</ol>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>Interview Preparation</h2>
+    <p>
+      <strong>Format:</strong> {{ interview.interview_format or 'mixed' }} |
+      <strong>Duration:</strong> {{ interview.estimated_duration_minutes or 60 }} min
+    </p>
+    {% if interview.company_research %}
+    <h3>Company Research</h3>
+    <p>{{ interview.company_research }}</p>
+    {% endif %}
+    {% if interview.success_factors %}
+    <h3>Success Factors</h3>
+    <ul>{% for factor in interview.success_factors %}<li>{{ factor }}</li>{% endfor %}</ul>
+    {% endif %}
+    {% if interview.technical_questions %}
+    <h3>Technical Questions ({{ interview.technical_questions|length }})</h3>
+    {% for q in interview.technical_questions[:5] %}
+    <div class="question">
+      <strong>Q:</strong> {{ q.question }}<br>
+      {% if q.difficulty %}<em>Difficulty: {{ q.difficulty }}</em><br>{% endif %}
+      {% if q.suggested_answer %}<strong>Answer guide:</strong> {{ q.suggested_answer[:400] }}{% if q.suggested_answer|length > 400 %}...{% endif %}{% endif %}
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% if interview.tips_and_tricks %}
+    <h3>Tips</h3>
+    <ol>{% for tip in interview.tips_and_tricks[:8] %}<li>{{ tip }}</li>{% endfor %}</ol>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>Cover Letter</h2>
+    {% if cover.primary_version %}
+    <pre>{{ cover.primary_version }}</pre>
+    {% endif %}
+    {% if cover.key_narratives %}
+    <h3>Key Narratives</h3>
+    <ul>{% for item in cover.key_narratives %}<li>{{ item }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+
+  <div class="footer">
+    Generated by Job Application Multi-Agent System
+  </div>
+</body>
+</html>
