@@ -107,21 +107,21 @@ Results are saved to `results.json` with all analysis.
 
 ```
 ┌─────────────────────────────────────┐
-│    LangGraph State Machine          │
+│    LangGraph State Machine              │
 ├─────────────────────────────────────┤
-│ START                               │
-│   ↓                                 │
-│ Job Analyzer                        │
-│   ↓                                 │
-│ CV Optimizer                        │
-│   ↓                                 │
-│ Interview Prep                      │
-│   ↓                                 │
-│ Cover Letter Generator              │
-│   ↓                                 │
-│ Report Builder → Email (optional)   │
-│   ↓                                 │
-│  END                                │
+│ START                                   │
+│   ↓                                      │
+│ Job Analyzer                            │
+│   ↓                                     │
+│ CV Optimizer                             │
+│   ↓                                     │
+│ Interview Prep                          │
+│   ↓                                     │
+│ Cover Letter Generator                  │
+│   ↓                                     │
+│ Report Builder → Email (optional)      │
+│   ↓                                     │
+│  END                                    │
 └─────────────────────────────────────┘
          ↓
     Groq API (Free)
